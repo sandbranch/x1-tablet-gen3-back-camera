@@ -84,5 +84,7 @@ quirk is not our fault mode, and the INT3472 GNVS clock fields do not match this
 
 ## Licence
 
+Copyright (c) 2026 David Sandquist.
+
 GPL-2.0 — see `LICENSE`. These are patches against GPL-2.0 kernel files, so they
 carry the same licence rather than the MIT used by the sibling repositories.
