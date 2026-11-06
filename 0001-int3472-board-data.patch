@@ -6,6 +6,8 @@ so VSIO must be always_on for the sensor to be reachable independent of probe
 order. VIO supplies the sensor's DOVDD. GPIO 9 = reset, GPIO 7 = powerdown,
 both active low -- matching Intel's iactrllogic64.sys and the Latitude 5285.
 
+Signed-off-by: David Sandquist <sandquist@gmail.com>
+
 --- a/drivers/platform/x86/intel/int3472/tps68470_board_data.c
 +++ b/drivers/platform/x86/intel/int3472/tps68470_board_data.c
 @@ -287,6 +287,121 @@

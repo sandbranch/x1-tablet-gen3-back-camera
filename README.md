@@ -81,3 +81,8 @@ a Dell Latitude 5285; his series is on linux-media. Patch `0003` here matched hi
 equivalent byte-for-byte before either of us had seen the other's work. Two of his five
 patches were measured against this machine and do not apply: the LPSS resource-conflict
 quirk is not our fault mode, and the INT3472 GNVS clock fields do not match this firmware.
+
+## Licence
+
+GPL-2.0 — see `LICENSE`. These are patches against GPL-2.0 kernel files, so they
+carry the same licence rather than the MIT used by the sibling repositories.

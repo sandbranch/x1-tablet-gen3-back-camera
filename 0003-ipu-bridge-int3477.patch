@@ -1,5 +1,7 @@
 Subject: [PATCH] media: ipu-bridge: Add support for INT3477 (OV8858)
 
+Signed-off-by: David Sandquist <sandquist@gmail.com>
+
 --- a/drivers/media/pci/intel/ipu-bridge.c
 +++ b/drivers/media/pci/intel/ipu-bridge.c
 @@ -73,6 +73,8 @@
